@@ -243,3 +243,27 @@ ul a {
         left: 75px;
     }
 }
+@media (max-width:320px) {
+     .con1 {
+        position: relative;
+        left: 170px;
+    }
+    .con2 {
+        position: relative;
+        left: 170px;
+    }
+    .con3 {
+        position: relative;
+        padding-right: 0;
+        left: 175px;
+    }
+    .con4 {
+        position: relative;
+        left: 175px;
+        padding-right: 0;
+    }
+    .btm {
+        position: relative;
+        left: 100px;
+    }
+}
