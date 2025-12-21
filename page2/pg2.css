@@ -103,11 +103,11 @@ p a {
     }
 }
 @media (max-width: 576px) {
-    body {
-        background-color: red;
-    }
     .kanan img {
         display: flex;
         justify-content: start;
+    }
+    .kanan {
+        height: 100%;
     }
 }
