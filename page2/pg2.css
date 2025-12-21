@@ -78,3 +78,25 @@ p a {
         background-color: #A3A3A3;
     }
 }
+@media (max-width: 425px) {
+    body {
+        height: 100vh;
+        width: 100%;
+    }
+    .kanan img{
+        position: relative;
+        top: 4rem;
+        height: 12rem;
+        width: 12rem;
+    }
+    form input, .login {
+        padding: 1rem 3rem 1rem 0.8rem;
+    }
+    .forgot {
+        position: relative;
+        left: 6.5rem;
+    }
+    .login {
+        padding: 1rem 6.2rem;
+    }
+}
