@@ -69,9 +69,26 @@ p {
     }
     form input, .signUp {
         padding: 1rem 10rem 1rem 0.8rem;
+
     }
     .kanan img {
         height: 7rem;
         height: 7rem;
+        position: relative;
+        bottom: 24rem;
+    }
+    .isi {
+
+        position: relative;
+        right: 20rem;
+    }
+    .kanan {
+        background-color: ye;
+    }
+    h1, h3, p {
+        white-space: nowrap;
+    }
+    .signUp {
+        padding: 1rem 7.8rem;
     }
 }
