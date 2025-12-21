@@ -79,7 +79,7 @@ p a {
         height: 8rem;
         width: 8rem;
         position: relative;
-        top: 2rem;
+        top: 1rem;
     }
     form input, .login {
         padding: 1rem 4rem 1rem 0.8rem;
@@ -114,3 +114,4 @@ p a {
         padding: 1rem 6.2rem;
     }
 }
+
