@@ -71,6 +71,7 @@ p a {
     }
     .kanan {
         width: 0;
+        background-color: red;
     }
     .kanan img {
         height: 7rem;
@@ -113,4 +114,5 @@ p a {
         padding: 1rem 6.2rem;
     }
 }
+
 
