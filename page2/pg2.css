@@ -110,4 +110,8 @@ p a {
     .kanan {
         height: 100%;
     }
+    .isi {
+        position: relative;
+        top: 5rem;
+    }
 }
