@@ -6,7 +6,6 @@ body {
     color: #4B4848;
 }
 .isi {
-
     padding: rem;
 }
 .kiri {
@@ -58,4 +57,24 @@ p {
 p a {
     color: #5387D5;
     text-decoration: none;
+}
+@media (max-width: 768px) {
+    .isi {
+        position: relative;
+        top: 5rem;
+    }
+    .kiri {
+        width: 0;
+    }
+    .kanan {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 0;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #A3A3A3;
+    }
 }
