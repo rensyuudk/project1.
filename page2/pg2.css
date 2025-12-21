@@ -62,8 +62,14 @@ p a {
     .kiri {
         width: 0;
     }
-    .kanan { 
-       width: 0;
+    .isi {
+        position: relative;
+        top: 3rem;
+    }
+    .kanan {
+
+        align-items: start;
+        width: 0;
     }
     body {
         display: flex;
