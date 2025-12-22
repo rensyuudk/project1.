@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+    color: #4B4848;
+}
+.kiri {
+    background-color: #A3A3A3;
+    width: 50%;
+}
+.kanan {
+    background-color: #D9D9D9;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    padding-top: 10px;
+}
+form input {
+    padding: 1rem 20rem 1rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+}
+.isi {
+    padding: 10rem;
+}
+p {
+    position: relative;
+    bottom: 1.5rem;
+}
+.signUp {
+    padding: 1rem 13rem;
+    border-radius: 10px;
+    border: none;
+    white-space: nowrap;
+    background-color: #3D3D3D;
+    color: #F8F4F4;
+}
+.p2 {
+    position: relative;
+    white-space: nowrap;
+    top: 0.5rem;
+    color: #F8F4F4;
+}
+.p2 a{
+    color: #5387D5;
+    text-decoration: none;
+}
+#back {
+    background-color: #D9D9D9;
+    border-radius: 100%;
+    padding: 0.7rem;
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+    border: none;
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 576px) {
+    .kiri {
+        width: 0;
+    }
+    .kanan {
+        width: 0;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #A3A3A3;
+        width: 100%;
+    }
+    form input, .signUp {
+        padding: 1rem 10rem 1rem 0.8rem;
+
+    }
+    .kanan img {
+        height: 7rem;
+        height: 7rem;
+        position: relative;
+        bottom: 22rem;
+    }
+    .isi {
+
+        position: relative;
+        right: 20rem;
+    }
+    .kanan {
+        background-color: ye;
+    }
+    h1, h3, p {
+        white-space: nowrap;
+    }
+    .signUp {
+        padding: 1rem 7.8rem;
+    }
+    #back {
+        position: fixed;
+    }
+}
